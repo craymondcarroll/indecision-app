@@ -1,0 +1,29 @@
+.header {
+  background: $off-black;
+  margin-bottom: $m-size;
+  color:white;
+  padding: $m-size 0;
+
+}
+
+// BEM Block Element Modifier
+.header__title {
+
+  font-size:$l-size;
+  margin: 0;
+}
+
+.header__subtitle {
+
+  font-size:$m-size;
+  color: $off-white;
+  padding: 0;
+  font-weight: 500;
+}
+
+@media(min-width: $desktop-breakpoint) {
+
+  .header {
+    margin-bottom: $xl-size;
+  }
+}
